@@ -1,5 +1,5 @@
 require_relative "boot"
-require_relative "subscriptions"
+# require_relative "subscriptions"
 
 require "rails/all"
 
@@ -24,13 +24,13 @@ module Railsdevs
     config.generators.system_tests = nil
 
     # Load custom configuration.
-    config.always_remember_me = true
-    config.analytics = config_for(:analytics)
-    config.emails = config_for(:emails)
-    config.fathom = config_for(:fathom)
-    config.plans = config_for(:plans)
-    config.sitemaps_host = "https://#{Rails.application.credentials.dig(:aws, :sitemaps_bucket)}.s3.#{Rails.application.credentials.dig(:aws, :region)}.amazonaws.com/"
-    config.upload_sitemap = false
+#     config.always_remember_me = true
+#     config.analytics = config_for(:analytics)
+#     config.emails = config_for(:emails)
+#     config.fathom = config_for(:fathom)
+#     config.plans = config_for(:plans)
+#     config.sitemaps_host = "https://#{Rails.application.credentials.dig(:aws, :sitemaps_bucket)}.s3.#{Rails.application.credentials.dig(:aws, :region)}.amazonaws.com/"
+#     config.upload_sitemap = false
 
     # Run background jobs via sidekiq.
     config.active_job.queue_adapter = :sidekiq
