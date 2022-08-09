@@ -29,8 +29,8 @@ module Railsdevs
     config.emails = config_for(:emails)
 #     config.fathom = config_for(:fathom)
 #     config.plans = config_for(:plans)
-#     config.sitemaps_host = "https://#{Rails.application.credentials.dig(:aws, :sitemaps_bucket)}.s3.#{Rails.application.credentials.dig(:aws, :region)}.amazonaws.com/"
-#     config.upload_sitemap = false
+    config.sitemaps_host = "https://www.atxmakers.com"
+    config.upload_sitemap = false
 
     # Run background jobs via sidekiq.
     config.active_job.queue_adapter = :sidekiq
