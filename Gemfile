@@ -40,7 +40,7 @@ end
 
 gem "apnotic", "~> 1.7.0"
 gem "auto_html", "~> 2.1"
-# gem "aws-sdk-s3", "~> 1", require: false
+gem "aws-sdk-s3", "~> 1", require: false
 gem "classy-yaml", "~> 0.7"
 gem "devise", "~> 4.8.1"
 gem "devise-i18n", "~> 1.10.1"
@@ -61,7 +61,7 @@ gem "pundit", "~> 2.1"
 gem "rails-i18n", "~> 7.0"
 gem "redcarpet", "~> 3.5"
 gem "rexml", "~> 3.2", ">= 3.2.5"
-# gem "scout_apm", "~> 5.1"
+gem "scout_apm", "~> 5.1"
 gem "sidekiq", "~> 6.4"
 gem "sitemap_generator", "~> 6.1"
 gem "stripe", "~> 6.5.0"
